@@ -4,7 +4,7 @@ import pickle
 import time
 
 # Chargement du modele
-with open('model.pkl','rb') as file:
+with open('./model.pkl','rb') as file:
     model = pickle.load(file)
 
 # Titre et mise en page
