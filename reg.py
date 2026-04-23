@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import pickle
 import time
-from sklearn.preprocessing import LabelEncoder
 
 # Chargement du modele
 with open('model.pkl','rb') as file:
